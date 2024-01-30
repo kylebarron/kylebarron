@@ -6,7 +6,7 @@ I'm primarily developing the GeoArrow and GeoParquet ecosystems for fast
 
 Project | Role | Description
 --- | --- | ---
-[Link] | author | The number one JavaScript library for interactive maps.
+[Link][] | author | The number one JavaScript library for interactive maps.
 <!-- [mapbox-gl-js](https://github.com/mapbox/mapbox-gl-js) | core contributor | JavaScript/WebGL vector maps library.
 [mapbox-gl-native](https://github.com/mapbox/mapbox-gl-native) | core&nbsp;contributor | OpenGL-based vector maps library. -->
 
