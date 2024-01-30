@@ -1,8 +1,10 @@
 ### Hi there! I'm Kyle 👋
 
-I'm a software engineer passionate about broad access to fast geospatial data science. The Python and JavaScript ecosystems have massive reach but d
+I'm a software engineer passionate about fast geospatial data science.
 
-I'm primarily developing the GeoArrow and GeoParquet ecosystems for fast
+I'm primarily developing the [GeoArrow] and [GeoParquet] ecosystems because I
+believe they portend a massive shift for faster, more interoperable geospatial
+data analysis.
 
 **Python:**
 
@@ -13,29 +15,31 @@ I'm primarily developing the GeoArrow and GeoParquet ecosystems for fast
 | [geoarrow-rust]          | author | A Python library implementing the GeoArrow specification with efficient spatial operations. |
 | [suncalc-py]             | author | A Python port of suncalc.js for calculating sun position and sunlight phases.               |
 | [pymartini]              | author | A Cython port of Martini for fast RTIN terrain mesh generation.                             |
+| [pydelatin]              | author | Python bindings to `hmm` for fast terrain mesh generation.                                  |
 | [quantized-mesh-encoder] | author | A fast Python [Quantized Mesh] encoder                                                      |
-
+| [usgs-topo-tiler]        | author | Python package to read Web Mercator map tiles from USGS Historical Topographic Maps         |
+| [keplergl_cli]           | author | One-line geospatial data visualization using Kepler.gl                                      |
 
 **JavaScript:**
 
 | Project                    | Role        | Description                                                                    |
 | -------------------------- | ----------- | ------------------------------------------------------------------------------ |
 | [parquet-wasm]             | author      | Rust-based WebAssembly bindings to read and write Apache [Parquet] data.       |
-| [@geoarrow/deck.gl-layers] | author      | [deck.gl] layers for rendering [GeoArrow] data.                                  |
+| [@geoarrow/deck.gl-layers] | author      | [deck.gl] layers for rendering [GeoArrow] data.                                |
 | [geoarrow-wasm]            | author      | Efficient, vectorized geospatial operations in WebAssembly.                    |
 | [arrow-js-ffi]             | author      | Zero-copy reading of Arrow data from WebAssembly.                              |
-| [geoarrow-js]              | author      | TypeScript implementation of [GeoArrow].                                         |
+| [geoarrow-js]              | author      | TypeScript implementation of [GeoArrow].                                       |
 | [deck.gl]                  | contributor | WebGL2 powered visualization framework.                                        |
 | [deck.gl-raster]           | author      | [deck.gl] layers and WebGL modules for client-side satellite imagery analysis. |
 
-
 **Rust:**
 
-| Project       | Role   | Description                                                                                                                                 |
-| ------------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| Project       | Role   | Description                                                                                                                                   |
+| ------------- | ------ | --------------------------------------------------------------------------------------------------------------------------------------------- |
 | [geoarrow-rs] | author | A Rust implementation of the [GeoArrow] specification and bindings to GeoRust algorithms for efficient spatial operations on GeoArrow memory. |
 | [geopolars]   | author | Geospatial extensions for the [Polars] DataFrame library.                                                                                     |
-| [geo-index]   | author | A Rust crate for packed, static, zero-copy spatial indexes.                                                                                 |
+| [geo-index]   | author | A Rust crate for packed, static, zero-copy spatial indexes.                                                                                   |
+| [arrow-wasm]  | author | Building block library for using Apache Arrow in Rust WebAssembly modules                                                                     |
 
 
 **Specifications:**
@@ -45,8 +49,16 @@ I'm primarily developing the GeoArrow and GeoParquet ecosystems for fast
 | [geoarrow]   | core contributor | Specification for storing geospatial data in Apache Arrow.                            |
 | [geoparquet] | core contributor | Specification for storing geospatial vector data (point, line, polygon) in [Parquet]. |
 
+**Tooling:**
+
+| Project                 | Role   | Description                                                                    |
+| ----------------------- | ------ | ------------------------------------------------------------------------------ |
+| [vscode-jupyter-python] | author | Run automatically-inferred Python code blocks in the VS Code Jupyter extension |
+
+
 [@geoarrow/deck.gl-layers]: https://github.com/geoarrow/deck.gl-layers
 [arrow-js-ffi]: https://github.com/kylebarron/arrow-js-ffi
+[arrow-wasm]: https://github.com/kylebarron/arrow-wasm
 [deck.gl-raster]: https://github.com/kylebarron/deck.gl-raster/
 [deck.gl]: https://github.com/visgl/deck.gl
 [geo-index]: https://github.com/kylebarron/geo-index
@@ -57,14 +69,18 @@ I'm primarily developing the GeoArrow and GeoParquet ecosystems for fast
 [geoarrow]: https://github.com/geoarrow/geoarrow
 [geoparquet]: https://github.com/opengeospatial/geoparquet
 [geopolars]: https://github.com/geopolars/geopolars
+[keplergl_cli]: https://github.com/kylebarron/keplergl_cli
 [lonboard]: https://github.com/developmentseed/lonboard
 [parquet-wasm]: https://github.com/kylebarron/parquet-wasm
 [Parquet]: https://parquet.apache.org/
 [Polars]: https://github.com/pola-rs/polars
+[pydelatin]: https://github.com/kylebarron/pydelatin
 [pymartini]: https://github.com/kylebarron/pymartini
 [Quantized Mesh]: https://github.com/CesiumGS/quantized-mesh
 [quantized-mesh-encoder]: https://github.com/kylebarron/quantized-mesh-encoder
 [suncalc-py]: https://github.com/kylebarron/suncalc-py
+[usgs-topo-tiler]: https://github.com/kylebarron/usgs-topo-tiler
+[vscode-jupyter-python]: https://github.com/kylebarron/vscode-jupyter-python
 
 <!--
 **kylebarron/kylebarron** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
