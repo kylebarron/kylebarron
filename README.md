@@ -49,14 +49,17 @@ data analysis.
 | [geoarrow]   | core contributor | Specification for storing geospatial data in Apache Arrow.                            |
 | [geoparquet] | core contributor | Specification for storing geospatial vector data (point, line, polygon) in [Parquet]. |
 
-**Tooling:**
+**Other:**
 
 | Project                 | Role   | Description                                                                    |
 | ----------------------- | ------ | ------------------------------------------------------------------------------ |
+| [National Scenic Trails Guide] | author | A [website](https://nst.guide) and [data tools](https://github.com/nst-guide) for exploring and navigating the [Pacific Crest Trail]. After hiking the PCT, this project was the core of my effort to transition to a career in geospatial software engineering. |
+| [all-transit] | author | Visualization of all transit routes in continental U.S. |
 | [vscode-jupyter-python] | author | Run automatically-inferred Python code blocks in the VS Code Jupyter extension |
 
 
 [@geoarrow/deck.gl-layers]: https://github.com/geoarrow/deck.gl-layers
+[all-transit]: https://github.com/kylebarron/all-transit
 [arrow-js-ffi]: https://github.com/kylebarron/arrow-js-ffi
 [arrow-wasm]: https://github.com/kylebarron/arrow-wasm
 [deck.gl-raster]: https://github.com/kylebarron/deck.gl-raster/
@@ -71,6 +74,8 @@ data analysis.
 [geopolars]: https://github.com/geopolars/geopolars
 [keplergl_cli]: https://github.com/kylebarron/keplergl_cli
 [lonboard]: https://github.com/developmentseed/lonboard
+[National Scenic Trails Guide]: https://nst.guide/
+[Pacific Crest Trail]: https://en.wikipedia.org/wiki/Pacific_Crest_Trail
 [parquet-wasm]: https://github.com/kylebarron/parquet-wasm
 [Parquet]: https://parquet.apache.org/
 [Polars]: https://github.com/pola-rs/polars
