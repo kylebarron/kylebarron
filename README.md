@@ -1,24 +1,24 @@
 ### Hi there! I'm Kyle 👋
 
-I'm a software engineer passionate about fast geospatial data science.
+I'm a software engineer passionate about fast, interoperable geospatial data science.
 
-I'm primarily developing the [GeoArrow] and [GeoParquet] ecosystems because I
-believe they portend a massive shift for faster, more interoperable geospatial
-data analysis.
+I'm primarily developing the [Apache Arrow], [GeoArrow] and [GeoParquet] ecosystems to make that a reality.
 
 **Python:**
 
-| Project                  | Role   | Description                                                                                 |
-| ------------------------ | ------ | ------------------------------------------------------------------------------------------- |
-| [geopolars]              | author | Geospatial extensions for the [Polars] DataFrame library.                                   |
-| [lonboard]               | author | Python library for fast, interactive geospatial vector data visualization in Jupyter.       |
-| [geoarrow-rust]          | author | A Python library implementing the GeoArrow specification with efficient spatial operations. |
-| [suncalc-py]             | author | A Python port of suncalc.js for calculating sun position and sunlight phases.               |
-| [pymartini]              | author | A Cython port of Martini for fast RTIN terrain mesh generation.                             |
-| [pydelatin]              | author | Python bindings to `hmm` for fast terrain mesh generation.                                  |
-| [quantized-mesh-encoder] | author | A fast Python [Quantized Mesh] encoder                                                      |
-| [usgs-topo-tiler]        | author | Python package to read Web Mercator map tiles from USGS Historical Topographic Maps         |
-| [keplergl_cli]           | author | One-line geospatial data visualization using Kepler.gl                                      |
+| Project                  | Role   | Description                                                                                   |
+| ------------------------ | ------ | --------------------------------------------------------------------------------------------- |
+| [lonboard]               | author | Python library for fast, interactive geospatial vector data visualization in Jupyter.         |
+| [geoarrow-rust]          | author | A Python library implementing the [GeoArrow] specification with efficient spatial operations. |
+| [arro3]                  | author | A minimal Python library to manage [Apache Arrow] data                                        |
+| [geoindex-rs]            | author | Fast, memory-efficient 2D spatial indexes for Python.                                         |
+| [geopolars]              | author | Geospatial extensions for the [Polars] DataFrame library.                                     |
+| [suncalc-py]             | author | A Python port of suncalc.js for calculating sun position and sunlight phases.                 |
+| [pymartini]              | author | A Cython port of Martini for fast RTIN terrain mesh generation.                               |
+| [pydelatin]              | author | Python bindings to `hmm` for fast terrain mesh generation.                                    |
+| [quantized-mesh-encoder] | author | A fast Python [Quantized Mesh] encoder                                                        |
+| [usgs-topo-tiler]        | author | Python package to read Web Mercator map tiles from USGS Historical Topographic Maps           |
+| [keplergl_cli]           | author | One-line geospatial data visualization using Kepler.gl                                        |
 
 **JavaScript:**
 
@@ -37,29 +37,30 @@ data analysis.
 | Project       | Role   | Description                                                                                                                                   |
 | ------------- | ------ | --------------------------------------------------------------------------------------------------------------------------------------------- |
 | [geoarrow-rs] | author | A Rust implementation of the [GeoArrow] specification and bindings to GeoRust algorithms for efficient spatial operations on GeoArrow memory. |
-| [geopolars]   | author | Geospatial extensions for the [Polars] DataFrame library.                                                                                     |
+| [pyo3-arrow]  | author | Lightweight [Apache Arrow] integration for [pyo3].                                                                                            |
 | [geo-index]   | author | A Rust crate for packed, static, zero-copy spatial indexes.                                                                                   |
 | [arrow-wasm]  | author | Building block library for using Apache Arrow in Rust WebAssembly modules                                                                     |
-
+| [geopolars]   | author | Geospatial extensions for the [Polars] DataFrame library.                                                                                     |
 
 **Specifications:**
 
 | Project      | Role             | Description                                                                           |
 | ------------ | ---------------- | ------------------------------------------------------------------------------------- |
-| [geoarrow]   | core contributor | Specification for storing geospatial data in Apache Arrow.                            |
-| [geoparquet] | core contributor | Specification for storing geospatial vector data (point, line, polygon) in [Parquet]. |
+| [GeoArrow]   | core contributor | Specification for storing geospatial data in Apache Arrow.                            |
+| [GeoParquet] | core contributor | Specification for storing geospatial vector data (point, line, polygon) in [Parquet]. |
 
 **Other:**
 
-| Project                 | Role   | Description                                                                    |
-| ----------------------- | ------ | ------------------------------------------------------------------------------ |
+| Project                        | Role   | Description                                                                                                                                                                                                                                                      |
+| ------------------------------ | ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [National Scenic Trails Guide] | author | A [website](https://nst.guide) and [data tools](https://github.com/nst-guide) for exploring and navigating the [Pacific Crest Trail]. After hiking the PCT, this project was the core of my effort to transition to a career in geospatial software engineering. |
-| [all-transit] | author | Visualization of all transit routes in continental U.S. |
-| [vscode-jupyter-python] | author | Run automatically-inferred Python code blocks in the VS Code Jupyter extension |
-
+| [all-transit]                  | author | Visualization of all transit routes in continental U.S.                                                                                                                                                                                                          |
+| [vscode-jupyter-python]        | author | Run automatically-inferred Python code blocks in the VS Code Jupyter extension                                                                                                                                                                                   |
 
 [@geoarrow/deck.gl-layers]: https://github.com/geoarrow/deck.gl-layers
 [all-transit]: https://github.com/kylebarron/all-transit
+[Apache Arrow]: https://arrow.apache.org/
+[arro3]: https://github.com/kylebarron/arro3
 [arrow-js-ffi]: https://github.com/kylebarron/arrow-js-ffi
 [arrow-wasm]: https://github.com/kylebarron/arrow-wasm
 [deck.gl-raster]: https://github.com/kylebarron/deck.gl-raster/
@@ -70,6 +71,7 @@ data analysis.
 [geoarrow-rust]: https://geoarrow.org/geoarrow-rs/python/latest/
 [geoarrow-wasm]: https://github.com/geoarrow/geoarrow-rs/tree/main/js#readme
 [geoarrow]: https://github.com/geoarrow/geoarrow
+[geoindex-rs]: https://github.com/kylebarron/geo-index/tree/main/python
 [geoparquet]: https://github.com/opengeospatial/geoparquet
 [geopolars]: https://github.com/geopolars/geopolars
 [keplergl_cli]: https://github.com/kylebarron/keplergl_cli
@@ -81,6 +83,8 @@ data analysis.
 [Polars]: https://github.com/pola-rs/polars
 [pydelatin]: https://github.com/kylebarron/pydelatin
 [pymartini]: https://github.com/kylebarron/pymartini
+[pyo3-arrow]: https://github.com/kylebarron/arro3/tree/main/pyo3-arrow
+[pyo3]: https://github.com/PyO3/pyo3
 [Quantized Mesh]: https://github.com/CesiumGS/quantized-mesh
 [quantized-mesh-encoder]: https://github.com/kylebarron/quantized-mesh-encoder
 [suncalc-py]: https://github.com/kylebarron/suncalc-py
