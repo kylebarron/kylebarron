@@ -11,6 +11,7 @@ I'm primarily developing the [Apache Arrow], [GeoArrow] and [GeoParquet] ecosyst
 | [lonboard]               | author | Python library for fast, interactive geospatial vector data visualization in Jupyter.         |
 | [geoarrow-rust]          | author | A Python library implementing the [GeoArrow] specification with efficient spatial operations. |
 | [arro3]                  | author | A minimal Python library to manage [Apache Arrow] data                                        |
+| [obstore]                | author | Simple, fast integration with Amazon S3, Google Cloud Storage, Azure Storage                  |
 | [geoindex-rs]            | author | Fast, memory-efficient 2D spatial indexes for Python.                                         |
 | [geopolars]              | author | Geospatial extensions for the [Polars] DataFrame library.                                     |
 | [suncalc-py]             | author | A Python port of suncalc.js for calculating sun position and sunlight phases.                 |
@@ -77,6 +78,7 @@ I'm primarily developing the [Apache Arrow], [GeoArrow] and [GeoParquet] ecosyst
 [keplergl_cli]: https://github.com/kylebarron/keplergl_cli
 [lonboard]: https://github.com/developmentseed/lonboard
 [National Scenic Trails Guide]: https://nst.guide/
+[obstore]: https://github.com/developmentseed/obstore
 [Pacific Crest Trail]: https://en.wikipedia.org/wiki/Pacific_Crest_Trail
 [parquet-wasm]: https://github.com/kylebarron/parquet-wasm
 [Parquet]: https://parquet.apache.org/
