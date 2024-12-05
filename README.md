@@ -38,6 +38,7 @@ I'm primarily developing the [Apache Arrow], [GeoArrow] and [GeoParquet] ecosyst
 | Project       | Role   | Description                                                                                                                                   |
 | ------------- | ------ | --------------------------------------------------------------------------------------------------------------------------------------------- |
 | [geoarrow-rs] | author | A Rust implementation of the [GeoArrow] specification and bindings to GeoRust algorithms for efficient spatial operations on GeoArrow memory. |
+| [wkb]         | author | Fast, pure-Rust reader and writer for Well-Known Binary geometries.                                                                           |
 | [pyo3-arrow]  | author | Lightweight [Apache Arrow] integration for [pyo3].                                                                                            |
 | [geo-index]   | author | A Rust crate for packed, static, zero-copy spatial indexes.                                                                                   |
 | [arrow-wasm]  | author | Building block library for using Apache Arrow in Rust WebAssembly modules                                                                     |
@@ -92,6 +93,7 @@ I'm primarily developing the [Apache Arrow], [GeoArrow] and [GeoParquet] ecosyst
 [suncalc-py]: https://github.com/kylebarron/suncalc-py
 [usgs-topo-tiler]: https://github.com/kylebarron/usgs-topo-tiler
 [vscode-jupyter-python]: https://github.com/kylebarron/vscode-jupyter-python
+[wkb]: https://github.com/georust/wkb
 
 <!--
 **kylebarron/kylebarron** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
