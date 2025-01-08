@@ -21,18 +21,6 @@ I'm primarily developing the [Apache Arrow], [GeoArrow] and [GeoParquet] ecosyst
 | [usgs-topo-tiler]        | author | Python package to read Web Mercator map tiles from USGS Historical Topographic Maps           |
 | [keplergl_cli]           | author | One-line geospatial data visualization using Kepler.gl                                        |
 
-**JavaScript:**
-
-| Project                    | Role        | Description                                                                    |
-| -------------------------- | ----------- | ------------------------------------------------------------------------------ |
-| [parquet-wasm]             | author      | Rust-based WebAssembly bindings to read and write Apache [Parquet] data.       |
-| [@geoarrow/deck.gl-layers] | author      | [deck.gl] layers for rendering [GeoArrow] data.                                |
-| [geoarrow-wasm]            | author      | Efficient, vectorized geospatial operations in WebAssembly.                    |
-| [arrow-js-ffi]             | author      | Zero-copy reading of Arrow data from WebAssembly.                              |
-| [geoarrow-js]              | author      | TypeScript implementation of [GeoArrow].                                       |
-| [deck.gl]                  | contributor | WebGL2 powered visualization framework.                                        |
-| [deck.gl-raster]           | author      | [deck.gl] layers and WebGL modules for client-side satellite imagery analysis. |
-
 **Rust:**
 
 | Project       | Role   | Description                                                                                                                                   |
@@ -43,6 +31,19 @@ I'm primarily developing the [Apache Arrow], [GeoArrow] and [GeoParquet] ecosyst
 | [geo-index]   | author | A Rust crate for packed, static, zero-copy spatial indexes.                                                                                   |
 | [arrow-wasm]  | author | Building block library for using Apache Arrow in Rust WebAssembly modules                                                                     |
 | [geopolars]   | author | Geospatial extensions for the [Polars] DataFrame library.                                                                                     |
+
+**JavaScript:**
+
+| Project                    | Role        | Description                                                                    |
+| -------------------------- | ----------- | ------------------------------------------------------------------------------ |
+| [parquet-wasm]             | author      | Rust-based WebAssembly bindings to read and write Apache [Parquet] data.       |
+| [@geoarrow/deck.gl-layers] | author      | [deck.gl] layers for rendering [GeoArrow] data.                                |
+| [geoarrow-wasm]            | author      | Efficient, vectorized geospatial operations in WebAssembly.                    |
+| [arrow-js-ffi]             | author      | Zero-copy reading of Arrow data from WebAssembly.                              |
+| [literate-flatbush]        | documenter  | Understanding [Flatbush]: a fast, elegant RTree implementation.                |
+| [geoarrow-js]              | author      | TypeScript implementation of [GeoArrow].                                       |
+| [deck.gl]                  | contributor | WebGL2 powered visualization framework.                                        |
+| [deck.gl-raster]           | author      | [deck.gl] layers and WebGL modules for client-side satellite imagery analysis. |
 
 **Specifications:**
 
@@ -67,6 +68,7 @@ I'm primarily developing the [Apache Arrow], [GeoArrow] and [GeoParquet] ecosyst
 [arrow-wasm]: https://github.com/kylebarron/arrow-wasm
 [deck.gl-raster]: https://github.com/kylebarron/deck.gl-raster/
 [deck.gl]: https://github.com/visgl/deck.gl
+[flatbush]: https://github.com/mourner/flatbush
 [geo-index]: https://github.com/kylebarron/geo-index
 [geoarrow-js]: https://github.com/geoarrow/geoarrow-js
 [geoarrow-rs]: https://github.com/geoarrow/geoarrow-rs
@@ -77,6 +79,7 @@ I'm primarily developing the [Apache Arrow], [GeoArrow] and [GeoParquet] ecosyst
 [geoparquet]: https://github.com/opengeospatial/geoparquet
 [geopolars]: https://github.com/geopolars/geopolars
 [keplergl_cli]: https://github.com/kylebarron/keplergl_cli
+[literate-flatbush]: https://github.com/kylebarron/literate-flatbush
 [lonboard]: https://github.com/developmentseed/lonboard
 [National Scenic Trails Guide]: https://nst.guide/
 [obstore]: https://github.com/developmentseed/obstore
