@@ -8,7 +8,7 @@ I'm primarily developing the [Apache Arrow], [GeoArrow] and [GeoParquet] ecosyst
 
 | Project                  | Role   | Description                                                                                   |
 | ------------------------ | ------ | --------------------------------------------------------------------------------------------- |
-| [obstore]                | author | The simplest, highest-throughput Python interface to S3, GCS & Azure Storage, powered by Rust.|
+| [obstore]                | author | The simplest, highest-throughput Python interface to S3, GCS & Azure Storage.                 |
 | [lonboard]               | author | Python library for fast, interactive geospatial vector data visualization in Jupyter.         |
 | [arro3]                  | author | A minimal Python library to manage [Apache Arrow] data                                        |
 | [geoarrow-rust]          | author | A Python library implementing the [GeoArrow] specification with efficient spatial operations. |
