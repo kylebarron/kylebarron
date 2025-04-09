@@ -8,12 +8,12 @@ I'm primarily developing the [Apache Arrow], [GeoArrow] and [GeoParquet] ecosyst
 
 | Project                  | Role   | Description                                                                                   |
 | ------------------------ | ------ | --------------------------------------------------------------------------------------------- |
-| [lonboard]               | author | Python library for fast, interactive geospatial vector data visualization in Jupyter.         |
-| [geoarrow-rust]          | author | A Python library implementing the [GeoArrow] specification with efficient spatial operations. |
-| [arro3]                  | author | A minimal Python library to manage [Apache Arrow] data                                        |
 | [obstore]                | author | Simple, fast integration with Amazon S3, Google Cloud Storage, Azure Storage                  |
-| [geoindex-rs]            | author | Fast, memory-efficient 2D spatial indexes for Python.                                         |
+| [lonboard]               | author | Python library for fast, interactive geospatial vector data visualization in Jupyter.         |
+| [arro3]                  | author | A minimal Python library to manage [Apache Arrow] data                                        |
+| [geoarrow-rust]          | author | A Python library implementing the [GeoArrow] specification with efficient spatial operations. |
 | [geopolars]              | author | Geospatial extensions for the [Polars] DataFrame library.                                     |
+| [geoindex-rs]            | author | Fast, memory-efficient 2D spatial indexes for Python.                                         |
 | [suncalc-py]             | author | A Python port of suncalc.js for calculating sun position and sunlight phases.                 |
 | [pymartini]              | author | A Cython port of Martini for fast RTIN terrain mesh generation.                               |
 | [pydelatin]              | author | Python bindings to `hmm` for fast terrain mesh generation.                                    |
