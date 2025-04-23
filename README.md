@@ -23,14 +23,16 @@ I'm primarily developing the [Apache Arrow], [GeoArrow] and [GeoParquet] ecosyst
 
 **Rust:**
 
-| Project       | Role   | Description                                                                                                                                   |
-| ------------- | ------ | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| [geoarrow-rs] | author | A Rust implementation of the [GeoArrow] specification and bindings to GeoRust algorithms for efficient spatial operations on GeoArrow memory. |
-| [wkb]         | author | Fast, pure-Rust reader and writer for Well-Known Binary geometries.                                                                           |
-| [pyo3-arrow]  | author | Lightweight [Apache Arrow] integration for [pyo3].                                                                                            |
-| [geo-index]   | author | A Rust crate for packed, static, zero-copy spatial indexes.                                                                                   |
-| [arrow-wasm]  | author | Building block library for using Apache Arrow in Rust WebAssembly modules                                                                     |
-| [geopolars]   | author | Geospatial extensions for the [Polars] DataFrame library.                                                                                     |
+| Project             | Role             | Description                                                                                                                                   |
+| ------------------- | ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| [geoarrow-rs]       | author           | A Rust implementation of the [GeoArrow] specification and bindings to GeoRust algorithms for efficient spatial operations on GeoArrow memory. |
+| [wkb]               | author           | Fast, pure-Rust reader and writer for Well-Known Binary geometries.                                                                           |
+| [wkt]               | core contributor | Rust read/write support for well-known text (WKT)                                                                                             |
+| [geo-index]         | author           | A Rust crate for packed, static, zero-copy spatial indexes.                                                                                   |
+| [pyo3-arrow]        | author           | Lightweight [Apache Arrow] integration for [pyo3].                                                                                            |
+| [pyo3-object_store] | author           | Integration between [object_store] and [pyo3].                                                                                                |
+| [arrow-wasm]        | author           | Building block library for using Apache Arrow in Rust WebAssembly modules                                                                     |
+| [geopolars]         | author           | Geospatial extensions for the [Polars] DataFrame library.                                                                                     |
 
 **JavaScript:**
 
@@ -82,6 +84,7 @@ I'm primarily developing the [Apache Arrow], [GeoArrow] and [GeoParquet] ecosyst
 [literate-flatbush]: https://github.com/kylebarron/literate-flatbush
 [lonboard]: https://github.com/developmentseed/lonboard
 [National Scenic Trails Guide]: https://nst.guide/
+[object_store]: https://crates.io/crates/object_store
 [obstore]: https://github.com/developmentseed/obstore
 [Pacific Crest Trail]: https://en.wikipedia.org/wiki/Pacific_Crest_Trail
 [parquet-wasm]: https://github.com/kylebarron/parquet-wasm
@@ -90,6 +93,7 @@ I'm primarily developing the [Apache Arrow], [GeoArrow] and [GeoParquet] ecosyst
 [pydelatin]: https://github.com/kylebarron/pydelatin
 [pymartini]: https://github.com/kylebarron/pymartini
 [pyo3-arrow]: https://github.com/kylebarron/arro3/tree/main/pyo3-arrow
+[pyo3-object_store]: https://github.com/developmentseed/obstore/tree/main/pyo3-object_store
 [pyo3]: https://github.com/PyO3/pyo3
 [Quantized Mesh]: https://github.com/CesiumGS/quantized-mesh
 [quantized-mesh-encoder]: https://github.com/kylebarron/quantized-mesh-encoder
@@ -97,6 +101,7 @@ I'm primarily developing the [Apache Arrow], [GeoArrow] and [GeoParquet] ecosyst
 [usgs-topo-tiler]: https://github.com/kylebarron/usgs-topo-tiler
 [vscode-jupyter-python]: https://github.com/kylebarron/vscode-jupyter-python
 [wkb]: https://github.com/georust/wkb
+[wkt]: https://github.com/georust/wkt
 
 <!--
 **kylebarron/kylebarron** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
