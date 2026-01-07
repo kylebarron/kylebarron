@@ -36,16 +36,17 @@ I'm primarily developing the [Apache Arrow], [GeoArrow] and [GeoParquet] ecosyst
 
 **JavaScript:**
 
-| Project                    | Role        | Description                                                                    |
-| -------------------------- | ----------- | ------------------------------------------------------------------------------ |
-| [parquet-wasm]             | author      | Rust-based WebAssembly bindings to read and write Apache [Parquet] data.       |
-| [@geoarrow/deck.gl-layers] | author      | [deck.gl] layers for rendering [GeoArrow] data.                                |
-| [geoarrow-wasm]            | author      | Efficient, vectorized geospatial operations in WebAssembly.                    |
-| [arrow-js-ffi]             | author      | Zero-copy reading of Arrow data from WebAssembly.                              |
-| [literate-flatbush]        | documenter  | Understanding [Flatbush]: a fast, elegant RTree implementation.                |
-| [geoarrow-js]              | author      | TypeScript implementation of [GeoArrow].                                       |
-| [deck.gl]                  | contributor | WebGL2 powered visualization framework.                                        |
-| [deck.gl-raster]           | author      | [deck.gl] layers and WebGL modules for client-side satellite imagery analysis. |
+| Project                     | Role        | Description                                                                      |
+| --------------------------- | ----------- | -------------------------------------------------------------------------------- |
+| [deck.gl-raster]            | author      | Client-side, GPU-accelerated Cloud-Optimized GeoTIFF visualization in [deck.gl]. |
+| [parquet-wasm]              | author      | Rust-based WebAssembly bindings to read and write Apache [Parquet] data.         |
+| [@geoarrow/deck.gl-layers]  | author      | [deck.gl] layers for rendering [GeoArrow] data.                                  |
+| [geoarrow-wasm]             | author      | Efficient, vectorized geospatial operations in WebAssembly.                      |
+| [arrow-js-ffi]              | author      | Zero-copy reading of Arrow data from WebAssembly.                                |
+| [literate-flatbush]         | documenter  | Understanding [Flatbush]: a fast, elegant RTree implementation.                  |
+| [geoarrow-js]               | author      | TypeScript implementation of [GeoArrow].                                         |
+| [deck.gl]                   | contributor | WebGL2 powered visualization framework.                                          |
+| [kylebarron/deck.gl-raster] | author      | [deck.gl] layers and WebGL modules for client-side satellite imagery analysis.   |
 
 **Specifications:**
 
@@ -68,19 +69,20 @@ I'm primarily developing the [Apache Arrow], [GeoArrow] and [GeoParquet] ecosyst
 [arro3]: https://github.com/kylebarron/arro3
 [arrow-js-ffi]: https://github.com/kylebarron/arrow-js-ffi
 [arrow-wasm]: https://github.com/kylebarron/arrow-wasm
-[deck.gl-raster]: https://github.com/kylebarron/deck.gl-raster/
+[deck.gl-raster]: https://github.com/developmentseed/deck.gl-raster
 [deck.gl]: https://github.com/visgl/deck.gl
 [flatbush]: https://github.com/mourner/flatbush
-[geo-index]: https://github.com/kylebarron/geo-index
+[geo-index]: https://github.com/georust/geo-index
 [geoarrow-js]: https://github.com/geoarrow/geoarrow-js
 [geoarrow-rs]: https://github.com/geoarrow/geoarrow-rs
 [geoarrow-rust]: https://geoarrow.org/geoarrow-rs/python/latest/
 [geoarrow-wasm]: https://github.com/geoarrow/geoarrow-rs/tree/main/js#readme
 [geoarrow]: https://github.com/geoarrow/geoarrow
-[geoindex-rs]: https://github.com/kylebarron/geo-index/tree/main/python
+[geoindex-rs]: https://github.com/georust/geo-index/tree/main/python
 [geoparquet]: https://github.com/opengeospatial/geoparquet
 [geopolars]: https://github.com/geopolars/geopolars
 [keplergl_cli]: https://github.com/kylebarron/keplergl_cli
+[kylebarron/deck.gl-raster]: https://github.com/kylebarron/deck.gl-raster/
 [literate-flatbush]: https://github.com/kylebarron/literate-flatbush
 [lonboard]: https://github.com/developmentseed/lonboard
 [National Scenic Trails Guide]: https://nst.guide/
