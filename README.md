@@ -11,6 +11,8 @@ I'm primarily developing the [Apache Arrow], [GeoArrow] and [GeoParquet] ecosyst
 | [obstore]                | author | The simplest, highest-throughput Python interface to S3, GCS & Azure Storage.                 |
 | [lonboard]               | author | Python library for fast, interactive geospatial vector data visualization in Jupyter.         |
 | [arro3]                  | author | A minimal Python library to manage [Apache Arrow] data                                        |
+| [async-geotiff]          | author | Fast, async GeoTIFF and COG reader for Python                                                 |  
+| [zarrista]               | author | Low-level Zarr API for Python, binding to Rust's Zarrs                                        |
 | [geoarrow-rust]          | author | A Python library implementing the [GeoArrow] specification with efficient spatial operations. |
 | [geopolars]              | author | Geospatial extensions for the [Polars] DataFrame library.                                     |
 | [geoindex-rs]            | author | Fast, memory-efficient 2D spatial indexes for Python.                                         |
@@ -26,6 +28,7 @@ I'm primarily developing the [Apache Arrow], [GeoArrow] and [GeoParquet] ecosyst
 | Project             | Role             | Description                                                                                                                                   |
 | ------------------- | ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
 | [geoarrow-rs]       | author           | A Rust implementation of the [GeoArrow] specification and bindings to GeoRust algorithms for efficient spatial operations on GeoArrow memory. |
+| [async-tiff]        | author           | 
 | [wkb]               | author           | Fast, pure-Rust reader and writer for Well-Known Binary geometries.                                                                           |
 | [wkt]               | core contributor | Rust read/write support for well-known text (WKT)                                                                                             |
 | [geo-index]         | author           | A Rust crate for packed, static, zero-copy spatial indexes.                                                                                   |
@@ -69,6 +72,8 @@ I'm primarily developing the [Apache Arrow], [GeoArrow] and [GeoParquet] ecosyst
 [arro3]: https://github.com/kylebarron/arro3
 [arrow-js-ffi]: https://github.com/kylebarron/arrow-js-ffi
 [arrow-wasm]: https://github.com/kylebarron/arrow-wasm
+[async-geotiff]: https://github.com/developmentseed/async-geotiff
+[async-tiff]: https://github.com/developmentseed/async-tiff
 [deck.gl-raster]: https://github.com/developmentseed/deck.gl-raster
 [deck.gl]: https://github.com/visgl/deck.gl
 [flatbush]: https://github.com/mourner/flatbush
@@ -104,6 +109,7 @@ I'm primarily developing the [Apache Arrow], [GeoArrow] and [GeoParquet] ecosyst
 [vscode-jupyter-python]: https://github.com/kylebarron/vscode-jupyter-python
 [wkb]: https://github.com/georust/wkb
 [wkt]: https://github.com/georust/wkt
+[zarrista]: https://github.com/developmentseed/zarrista
 
 <!--
 **kylebarron/kylebarron** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
